@@ -1,0 +1,17 @@
+.navbar {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation a {
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 3px;
+}
