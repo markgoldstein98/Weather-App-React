@@ -1,6 +1,7 @@
 
-function aboutPage() {
+function About() {
     
+
     return(
         <section>
             <h1> Welcome to the Weather App!</h1>
@@ -36,4 +37,4 @@ CSS: Styling and presentation of the user interface.
     )
 }
 
-export default aboutPage
+export default About

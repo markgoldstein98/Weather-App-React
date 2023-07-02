@@ -9,7 +9,7 @@
   justify-content: space-evenly;
 }
 
-.navigation a {
+.navigation button {
   text-decoration: none;
   border: 1px solid grey;
   border-radius: 20px;

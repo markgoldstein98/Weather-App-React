@@ -1,31 +1,25 @@
 import "./navBar.css";
-import aboutPage from "../About/About";
-function HeaderNav(){
+import About from "../About/About";
+function NavBar(props){
+
+  const changePage = props.changePage
+
+  
 
 
     return (
 
-        function onClickAbout() {
-          // kattintásra a aboutPage jelenjen meg, illetve landing page-kent is
-        },
-
-        function onClickSeach() {
-          // kattintásra bejön a Search Weather felület  
-        },
-
-        function onClickSupport() {
-            // kattintásra bejön a Support
-        },
-
+      // itt írjam meg a function arra hogy, ha rákattintok akkor behozza az oldalak?
         <nav className="navbar">
             <section className="navigation">
-                <a href="/" onClick={aboutPage}>About</a>
-                <a href="/">Search Weather</a>
-                <a href="/">Support</a>
+              <button onClick={ ()=>changePage("About")}>About</button>
+              <button onClick={ ()=>changePage("Weather App")}>Weather App</button>
+              <button onClick={()=>changePage("Support")}>Support</button>
+                
             </section>
          </nav>
 
     )
 }
 
-export default HeaderNav;
+export default NavBar;
