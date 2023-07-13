@@ -1,4 +1,4 @@
-
+import "./support.css";
 function Support() {
     
     return(
