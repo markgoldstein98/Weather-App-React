@@ -1,9 +1,9 @@
-
+import "./about.css";
 function About() {
     
 
     return(
-        <section>
+        <section className="intro">
             <h1> Welcome to the Weather App!</h1>
             <h3>
             This WeatherApp is a React application that fetches weather data from the WeatherAPI and displays it to the user. It provides current weather information for a specified location, allows searching for cities, sets the background image based on the selected city, and enables saving favorite cities.

@@ -9,7 +9,7 @@ function NavBar(props){
 
     return (
 
-      // itt írjam meg a function arra hogy, ha rákattintok akkor behozza az oldalak?
+    
         <nav className="navbar">
             <section className="navigation">
               <button onClick={ ()=>changePage("About")}>About</button>
