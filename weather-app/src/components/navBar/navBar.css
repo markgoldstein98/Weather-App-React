@@ -7,11 +7,16 @@
 .navigation {
   display: flex;
   justify-content: space-evenly;
+  /* need some transformation here */
 }
 
 .navigation button {
   text-decoration: none;
   border: 1px solid grey;
   border-radius: 20px;
-  padding: 3px;
+  padding: 5px;
+}
+
+.navigation:hover {
+  /* need some transformation */
 }
