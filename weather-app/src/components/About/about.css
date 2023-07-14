@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
+body {
+  background-image: url("file:///Users/goldsteinmarkabraham98/Downloads/layered-waves-haikei.svg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .intro {
   font-family: "VT323", monospace;
   font-size: 20px;
-  color: black;
+  color: whitesmoke;
   line-height: 40px;
 }
